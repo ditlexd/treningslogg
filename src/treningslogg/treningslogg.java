@@ -20,7 +20,7 @@ public class treningslogg {
 			Legs legs = new Legs("Sunday");
 			legsList.add(legs);
 			FileSerialization fs = new FileSerialization();
-			fs.saveLegs(legs, "C:\\Users\\ditle\\eclipse-workspace\\treningslogg\\src\\treningslogg\\myLegs.ser");
+			fs.saveLegs(legs, "/home/ditlef/code/Java/treningslogg/files/legs.ser");
 
 		}
 
