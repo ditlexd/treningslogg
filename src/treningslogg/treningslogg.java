@@ -21,7 +21,10 @@ public class treningslogg {
 			legsList.add(legs);
 			FileSerialization fs = new FileSerialization();
 			fs.saveLegs(legs, "/home/ditlef/code/Java/treningslogg/files/legs.ser");
+			Legs legsTwo = null;
+			legsTwo = (Legs) fs.readFile();
 
+			System.out.println(legsTwo);
 		}
 
 	}
